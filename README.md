@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏢 Sieko Company Profile Website
 
-## Getting Started
+Website company profile modern dan interaktif untuk memperkenalkan platform Sieko — solusi digital terintegrasi untuk membantu UMKM berkembang melalui berbagai layanan seperti ekoFarm, ekoPlier, dan ekoSeller.
 
-First, run the development server:
+---
+
+## 📸 Tampilan Website
+
+![Screenshot Halaman Hero](./ss-projek.png)
+
+---
+
+## 🌐 Deskripsi Proyek
+
+Sieko adalah platform digital yang bertujuan untuk memberdayakan UMKM di Indonesia melalui edukasi dan solusi digital. Website ini dibangun menggunakan Next.js dengan dukungan Tailwind CSS dan animasi interaktif menggunakan Framer Motion dan React Three Fiber.
+
+---
+
+## 🚀 Fitur Utama
+
+- Halaman Hero interaktif dengan animasi angka
+- Penjelasan misi & tujuan perusahaan
+- Showcase produk: ekoFarm, ekoPlier, ekoSeller
+- Responsive Design (Mobile & Desktop)
+- Komponen modular dan styling terstruktur
+- Animasi dengan Framer Motion & NumberTicker
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+
+- ⚛️ Next.js 14
+- 💨 Tailwind CSS
+- 🎬 Framer Motion
+- 🎨 Lucide Icons, Tabler Icons
+- 🌍 React Three Fiber & Drei
+- 🧱 Radix UI & ShadCN Components
+
+---
+
+## 📦 Cara Instalasi & Menjalankan
+
+1. **Clone proyek ini**
+
+```bash
+git clone https://github.com/anamwebdev/sieko.git
+cd sieko
+```
+
+2. **Install dependencies**
+
+```bash
+npm install
+# atau
+yarn install
+```
+
+3. **Jalankan di development mode**
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Lalu buka `http://localhost:3000` di browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📐 Struktur Proyek (Singkat)
 
-## Learn More
+```bash
+.
+├── components/         # Komponen UI reusable (Hero, HeroFeatures, dll)
+├── pages/              # Routing halaman Next.js
+├── public/             # Gambar, ikon, ilustrasi
+├── styles/             # Konfigurasi Tailwind
+├── app/                # Entry point App dan layout
+├── tsconfig.json       # Konfigurasi TypeScript
+├── tailwind.config.ts  # Konfigurasi Tailwind
+├── package.json        # Dependensi & script
+└── README.md           # Dokumentasi ini
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📄 Lisensi
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+MIT License © 2025 Samsul Anam  
+Bebas digunakan dan dimodifikasi untuk keperluan pribadi maupun komersial.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
